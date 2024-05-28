@@ -21,8 +21,12 @@ app.use('/api/v1/brands', brandRoutes);
 app.use('/api/v1/colors', colorsRoutes);
 app.use('/api/v1/reviews', reviewRoutes);
 app.use('/api/v1/orders', orderRoutes);
+app.use('*', ()=> {
+    throw new Error('Route not found');
+});
 //errr middleware
 app.use(notFound);
 app.use(globalErrhandler);
 export default app;
+
   
