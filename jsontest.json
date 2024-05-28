@@ -1,0 +1,10 @@
+{
+    "name":"Audífonos", 
+    "description":"Conducción osea, resistentes al agua",
+    "brand":"Philips",
+    "category":"Electrónica",
+    "sizes":["S", "M"],
+    "colors":"Negro",
+    "price":"150000",
+    "totalQty":"10"
+}
